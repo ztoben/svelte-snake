@@ -1,5 +1,4 @@
-# wired-snake
-
+# svelte-snake
 
 _A snake game written with [Svelte](https://svelte.dev/)_
 
