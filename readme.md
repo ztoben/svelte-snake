@@ -1,5 +1,7 @@
 # svelte-snake
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7bc21184-8d10-43ee-8890-f801f4df4503/deploy-status)](https://app.netlify.com/sites/svelte-snake/deploys)
+
 _A snake game written with [Svelte](https://svelte.dev/)_
 
 Check out the live version [here](https://svelte-snake.netlify.com/).
