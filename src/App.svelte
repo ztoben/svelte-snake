@@ -13,9 +13,9 @@
 
 	let snek;
 	try {
-		highScores = JSON.parse(localStorage.getItem(HIGH_SCORES)) || [];
+		highScores = JSON.parse(localStorage.getItem(HIGH_SCORES)) || [0];
 	} catch (err) {
-		highScores = [];
+		highScores = [0];
 	}
 
 	function addSnek() {
