@@ -183,15 +183,19 @@
 		justify-content: center;
 		align-items: center;
 		flex-direction: row;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	.high-score {
 		background-color: lightgray;
 		color: red;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	.game-container {
 		padding: 5px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin: 5px;
 	}
 
 	.grid-container {
@@ -223,7 +227,7 @@
 		</wired-card>
 	</div>
 
-	<wired-card class="game-container">
+	<wired-card class="game-container" elevation="3">
 		<div class="grid-container">
 			{#each board as row, outerIndex}
 				{#each row as cell, index}
