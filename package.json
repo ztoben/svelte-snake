@@ -20,6 +20,6 @@
     "start:dev": "sirv public --dev"
   },
   "dependencies": {
-    "roughjs": "4.1.0"
+    "roughjs": "4.2.3"
   }
 }
